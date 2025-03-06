@@ -1,6 +1,6 @@
 📈 Dashboard de Finanzas Personales
 
-Este es un dashboard simple para gestionar ingresos y gastos utilizando JavaScript, HTML y CSS. Los datos se almacenan en localStorage y se pueden exportar a CSV o PDF. También incluye gráficos dinámicos con Chart.js.
+Este es un dashboard simple para gestionar tus gastos utilizando JavaScript, HTML y CSS. Los datos se almacenan en localStorage y se pueden exportar a CSV o PDF. También incluye gráficos dinámicos con Chart.js.
 
 🛠️ Características
 
