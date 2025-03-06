@@ -4,11 +4,11 @@ Este es un dashboard simple para gestionar tus gastos utilizando JavaScript, HTM
 
 🛠️ Características
 
-Registrar ingresos y gastos manualmente.
+Registrar gastos manualmente.
 
 Balance total actualizado automáticamente.
 
-Gráfico dinámico de ingresos y gastos.
+Gráfico dinámico de gastos.
 
 Exportar transacciones a CSV y PDF.
 
