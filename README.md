@@ -19,8 +19,11 @@ Interfaz simple y responsive.
 📚 Estructura del Proyecto
 
 /GestionGastos
+
 │── index.html        # Página principal
+
 │── styles.css        # Estilos
+
 │── app.js            # Lógica del dashboard
 
 
