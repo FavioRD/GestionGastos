@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Finanzas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dashboard de Finanzas Personales</h1>
+        <button id="modoOscuro">Modo Oscuro</button>
+    </header>
+
+    <section id="formulario">
+        <h2>Registrar Transacción</h2>
+        <input type="date" id="fecha">
+        <input type="text" id="descripcion" placeholder="Descripción">
+        <input type="number" id="monto" placeholder="Monto">
+        <select id="categoria">
+            <option value="Alimentación">Alimentación</option>
+            <option value="Transporte">Transporte</option>
+            <option value="Entretenimiento">Entretenimiento</option>
+            <option value="Otros">Otros</option>
+        </select>
+        <button id="agregar">Agregar</button>
+    </section>
+
+    <section id="graficos">
+        <h2>Estadísticas</h2>
+        <canvas id="graficoBarras"></canvas>
+        <canvas id="graficoLineas"></canvas>
+    </section>
+
+    <section id="resumen">
+        <h2>Resumen</h2>
+        <p>Balance: <span id="balance">$0.00</span></p>
+        <button id="descargarCSV">Descargar CSV</button>
+        <button id="descargarPDF">Descargar PDF</button>
+    </section>
+
+    <section id="lista">
+        <h2>Transacciones</h2>
+        <ul id="lista-transacciones"></ul>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
