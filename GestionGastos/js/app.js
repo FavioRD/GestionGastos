@@ -50,7 +50,7 @@ function mostrarTransacciones() {
         balance += t.monto;
     });
 
-    document.getElementById("balance").innerText = `$${balance.toFixed(2)}`;
+    document.getElementById("balance").innerText = `S/.${balance.toFixed(2)}`;
 }
 
 function eliminarTransaccion(index) {
