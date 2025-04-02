@@ -1,63 +1,59 @@
-📈 Dashboard de Finanzas Personales
+# 📈 Dashboard de Finanzas Personales
 
-Este es un dashboard simple para gestionar tus gastos utilizando JavaScript, HTML y CSS. Los datos se almacenan en localStorage y se pueden exportar a CSV o PDF. También incluye gráficos dinámicos con Chart.js.
+## Descripción
+El **Dashboard de Finanzas Personales** es una aplicación sencilla para gestionar ingresos y gastos utilizando **JavaScript, HTML y CSS**. Los datos se almacenan en **localStorage** y pueden exportarse a **CSV** o **PDF**. Además, incorpora gráficos dinámicos con **Chart.js** para visualizar mejor los movimientos financieros.
 
-🛠️ Características
+---
 
-Registrar gastos manualmente.
+## 🛠️ Características
+- ✅ **Registro manual de ingresos y gastos**.
+- 💰 **Balance total actualizado automáticamente**.
+- 📊 **Gráficos dinámicos de gastos** con **Chart.js**.
+- 📂 **Exportación de transacciones a CSV y PDF**.
+- 🏦 **Almacenamiento de datos en localStorage**.
+- 🎨 **Interfaz simple, intuitiva y responsive**.
 
-Balance total actualizado automáticamente.
+---
 
-Gráfico dinámico de gastos.
-
-Exportar transacciones a CSV y PDF.
-
-Almacenamiento en localStorage.
-
-Interfaz simple y responsive.
-
-📚 Estructura del Proyecto
-
+## 📚 Estructura del Proyecto
+```
 /GestionGastos
-
 │── index.html        # Página principal
-
-│── styles.css        # Estilos
-
+│── styles.css        # Estilos de la interfaz
 │── app.js            # Lógica del dashboard
+```
 
+---
 
-🔄 Instalación y Uso
-
-Clona el repositorio:
-
+## 🔄 Instalación y Uso
+### 1️⃣ Clonar el repositorio
+```bash
 git clone https://github.com/FavioRD/GestionGastos.git
-
 cd gestiongastos
+```
 
-Abre index.html en el navegador.
+### 2️⃣ Ejecutar el proyecto
+Abre `index.html` en tu navegador web.
 
-Registra ingresos y gastos.
+### 3️⃣ Funcionalidades principales
+- **Registra ingresos y gastos manualmente**.
+- **Visualiza el balance total y gráficos dinámicos**.
+- **Descarga reportes en CSV o PDF**.
 
-Visualiza el balance y el gráfico dinámico.
+---
 
-Descarga reportes en CSV o PDF.
-
-📊 Uso de Chart.js
-
-Si no usas CDN, descarga Chart.js y guárdalo en chart.min.js. Si prefieres la CDN, usa:
-
+## 📊 Uso de Chart.js
+Si prefieres utilizar una CDN, agrega el siguiente script en tu `index.html`:
+```html
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+```
+Si optas por descargar la librería, guárdala como `chart.min.js` en tu proyecto.
 
-🎨 Captura de Pantalla
+---
 
-![Captura de pantalla 2025-03-06 120309](https://github.com/user-attachments/assets/33696fbe-9b14-4a2d-8f42-91953b3b00d8)
-![Captura de pantalla 2025-03-06 120318](https://github.com/user-attachments/assets/77f5089e-7e65-44a8-92b7-18ea3e9dfb42)
+## ✨ Contribuciones
+Las contribuciones son bienvenidas. Si deseas mejorar el proyecto:
+1. **Abre un issue** para reportar errores o sugerencias.
+2. **Envía un pull request** con mejoras o nuevas funcionalidades.
 
-Descargar PDF:
-
-![Captura de pantalla 2025-03-06 120339](https://github.com/user-attachments/assets/e51ac5ce-a8b1-4806-97a8-20704b19f9b3)
-
-✨ Contribuciones
-
-¡Las contribuciones son bienvenidas! Si encuentras errores o tienes ideas, abre un issue o un pull request.
+¡Gracias por tu apoyo! 🚀
